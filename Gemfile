@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 gem 'rails', '4.2.0'
 gem 'sass-rails', '~> 4.0.3'
 gem 'uglifier', '>= 1.3.0'
@@ -24,3 +24,6 @@ group :production do
   gem 'pg'
   gem 'thin'
 end
+
+
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
